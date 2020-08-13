@@ -40,8 +40,8 @@ public class paytm {
 	
 	public static void main(String[] args) {
 		pay p = new pay("harshit","9877479926",2000);
-		UpiTransfer i = new UpiTransfer("Adarsh","987747926",2000, "adarsh@xyz") ;
+		UpiTransfer u = new UpiTransfer("Adarsh","987747926",2000, "adarsh@xyz") ;
 		p.showpaymentdetails();
-		i.showpaymentdetails();
+		u.showpaymentdetails();
 	}
 }
